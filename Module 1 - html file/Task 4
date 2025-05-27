@@ -1,0 +1,21 @@
+<style>
+  .eventImage {
+    border: 2px solid #333;
+    width: 150px;
+    height: 100px;
+  }
+</style>
+
+<table>
+  <caption>Highlights from Past Events</caption>
+  <tr>
+    <td><img class="eventImage" src="img1.jpg" alt="Fair" title="Annual Fair"></td>
+    <td><img class="eventImage" src="img2.jpg" alt="Music" title="Music Festival"></td>
+    <td><img class="eventImage" src="img3.jpg" alt="Marathon" title="City Marathon"></td>
+  </tr>
+  <tr>
+    <td><img class="eventImage" src="img4.jpg" alt="Dance" title="Dance Night"></td>
+    <td><img class="eventImage" src="img5.jpg" alt="Food Fest" title="Food Festival"></td>
+    <td><img class="eventImage" src="img6.jpg" alt="Charity" title="Charity Drive"></td>
+  </tr>
+</table>

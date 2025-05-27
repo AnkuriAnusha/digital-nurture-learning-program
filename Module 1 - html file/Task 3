@@ -1,0 +1,16 @@
+<style>
+  #welcomeBanner {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+  }
+  .highlight {
+    background-color: yellow;
+  }
+</style>
+
+<div id="welcomeBanner">
+  Welcome, <span style="color:red; font-weight:bold;">special offer for you!</span>
+</div>
+
+<p class="highlight">Don't miss the upcoming community fair!</p>

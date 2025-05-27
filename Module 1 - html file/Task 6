@@ -1,0 +1,33 @@
+<script>
+  function validatePhone(e) {
+    if (!/^[0-9]{10}$/.test(e.value)) {
+      alert('Invalid phone number!');
+    }
+  }
+
+  function showFee(e) {
+    alert(`Selected Event Fee: $${e.value}`);
+  }
+
+  function countChars(e) {
+    document.getElementById('charCount').textContent = e.value.length;
+  }
+
+  function enlargeImage(e) {
+    e.style.width = "300px";
+  }
+
+  function confirmSubmit() {
+    alert("Feedback submitted!");
+  }
+</script>
+
+<input type="text" placeholder="Phone" onblur="validatePhone(this)">
+<select onchange="showFee(this)">
+  <option value="10">Workshop ($10)</option>
+  <option value="20">Concert ($20)</option>
+</select>
+<img src="event.jpg" ondblclick="enlargeImage(this)" width="150px">
+<textarea onkeyup="countChars(this)"></textarea>
+<p>Characters: <span id="charCount">0</span></p>
+<button onclick="confirmSubmit()">Submit Feedback</button>
